@@ -1,0 +1,202 @@
+﻿body{
+
+width:1366px;
+margin:auto;
+font-family: "lucida console", verdana, serif;
+
+}
+
+.inicio{
+	
+	background-image:url("eita.png");
+	height:500px;
+	background-position: center;
+}
+
+nav{
+	background-color:black;
+	height:70px;
+	padding-top:15px;
+	
+}
+	
+
+ul li{
+display: inline;	
+	
+}
+
+a{
+
+	color:white;
+	text-decoration: none;
+	font-size:20px;
+    margin:35px 60px;
+	
+}
+
+ul li a:hover{
+	
+	color:#F4E404 ;
+	
+	
+}
+header{
+	
+	text-align:center;
+	
+	font-size:30px;
+}
+#gols{
+	float:right;
+	width:180px;
+}
+
+.txtidolos{
+	float:right;
+	width:800px;
+	
+}
+
+.idolos{
+	float:left;
+	text-align:center;
+	height:290px;
+	margin-bottom:10px;
+	
+	
+}
+	
+#txthistoria{
+	border:2px solid #F4E404 ;
+
+text-align:center;
+padding:30px 0 0 0px;
+background-color:black;
+color:white;
+width:1160px;
+height:700px;
+}	
+
+.elenco{
+	float:left;
+	margin:10px 40px;
+	margin-right:97px;
+	height:320px;
+	border:2px solid black;
+	text-align:center;
+	color:white;
+	background-color:black;
+	
+	
+}
+
+#escudos{
+	width:1000px;
+	
+}
+	
+	#esportes{
+		width:930px;
+	}
+	
+	textarea{
+	width:600px;
+height:300px;	
+	}
+	
+	#input{
+		background-color:black;
+		color:white;
+		width:100px;
+height:50px;
+font-size:25px;
+		
+	}
+	
+	#contato{
+	background-color:white;
+		color:black;
+	height:700px;
+	padding-top:20px;
+	padding-left:20px;
+	font-size:20px;
+	}
+	
+	#volta{
+		
+		background-color:blue;
+		color:black;
+		width:330px;
+height:20px;
+font-size:25px;
+font-size:25px;
+	}
+	
+	#camisa{
+		float:right;
+		clear:right;
+		
+	}
+	
+	#camisa2{
+		float:right;
+		clear:right;
+	}
+
+#camisa3{
+		float:right;
+		clear:right;
+	}
+	
+	.footer {
+		clear:both;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  background-image:url("minino.png");
+  background-position: center;
+	height:430px;
+    color: black;
+	font-size:20px;
+    
+    }
+	.socio{
+	float:right;
+	padding-bottom:200px;
+	}
+	
+	#nossa{
+		padding-top:200px;
+		text-align:center;
+	}
+	
+	#topo{
+	background-color:black;
+	color:#F4E404;
+	border:3px solid black;
+	}
+.idolos a img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+	
+
+
